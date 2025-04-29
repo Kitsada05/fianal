@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์แนะนำหนัง</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .icon-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .icon-button:hover {
+            color: #060606;
+        }
+        .search-box {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 10px;
+            padding: 5px 10px;
+            color: white;
+        }
+        .search-box::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .navbar {
+            background-color: #000000;
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+        body, html {
+            background-color: rgb(21, 22, 45);
+        }
+    </style>
+</head>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b>MOVIE RECOMMENDATION</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="THAI.html"><b>THAI MOVIES</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cartoon.html"><b>CARTOON MOVIE</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SERIES.html"><b>SERIES</b></a>
+                    <body></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>CONTRIBUTE</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">นายกฤษฎา นาคะพงศ์</a></li>
+                            <li><a class="dropdown-item" href="#">นายกฤตดิศักดิ์ แก้วบุรงค์</a></li>
+                            <li><a class="dropdown-item" href="#">นายชาญชัญญ์ เอื้อประเสริฐ</a></li>
+                            <li><a class="dropdown-item" href="#">นายณัฐดนัย สันติชวลิตสกุล</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex align-items-center" role="search">
+                    <input class="form-control me-2 search-box" type="search" placeholder="ค้นหา" aria-label="Search">
+                    <button class="btn btn-outline-light me-2" type="submit"><i class="fas fa-search"></i></button>
+                    <button class="icon-button" type="button"><i class="fas fa-user-plus" title="สมัครสมาชิก"></i></button>
+                    <button class="icon-button" type="button"><i class="fas fa-sign-in-alt" title="ออกจากระบบ"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center text-bg-light"><b>Thai Movie!</b></h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://mpics.mgronline.com/pics/Images/554000014102701.JPEG" class="card-img-top" alt="Love Scout">
+                    <div class="card-body">
+                        <h5 class="card-title">Top Secret วัยรุ่นพันล้าน</h5>
+                        <a href="thai1.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://s.isanook.com/mv/0/ud/30/153191/1.jpg?ip/resize/w728/q80/jpg" class="card-img-top" alt="Undercover High School">
+                    <div class="card-body">
+                        <h5 class="card-title">ธี่หยด 2</h5>
+                        <a href="thai2.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://f.ptcdn.info/978/084/000/lz74hq5miYj8x9beJMv-o.jpg" class="card-img-top" alt="Heavenly Ever After">
+                    <div class="card-body">
+                        <h5 class="card-title">วิมานหนาม</h5>
+                        <a href="thai3.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://th.bing.com/th/id/OIP.e6eLsp9X1h3B_3FsEgwN_wHaKl?rs=1&pid=ImgDetMain" class="card-img-top" alt="Crushology 101">
+                    <div class="card-body">
+                        <h5 class="card-title">เร็วโหด..เหมือนโกรธเธอ</h5>
+                        <a href="thai4.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://lh3.googleusercontent.com/SvIdz_JLoTgCGGkgQG7CKgFH3MPxTAqh60lJ8OUMnJw2cRqbo-NdBLfWXGRaV2t3rVaqcVHl5jEYUXmIFpxvRQ=s0" class="card-img-top" alt="Resident Playbook">
+                    <div class="card-body">
+                        <h5 class="card-title">สุขสันต์วันโสด</h5>
+                        <a href="thai5.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://iizitem.wordpress.com/wp-content/uploads/2012/10/singleklekteeruekvarak_05.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">สิ่งเล็กเล็กที่เรียกว่า...รัก</h5>
+                        <a href="thai6.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://img.kapook.com/image/movie/442519022.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">กวน มึน โฮ</h5>
+                        <a href="thai7.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://s359.kapook.com/pagebuilder/7e9aada5-ee1c-4b18-9f97-aac3ec34b13a.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">สี่แพร่ง</h5>
+                        <a href="thai8.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.ctfassets.net/4cd45et68cgf/44BiRzPgPcZPGC4v3XsCQ1/ddce26d7b7f59e73cb2f47db0fa54645/HTMMBGD-th.jpg?w=2000" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">หลานม่า</h5>
+                        <a href="thai9.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://live.staticflickr.com/183/426746118_ffec84ee91_z.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">แสบสนิทศิษย์ส่ายหน้า</h5>
+                        <a href="thai10.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://prod-images.viu.com/858303869/e065e6f5874af3f3d933a0f4bc105a7c7cb9574f" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">โหด หน้า เหี่ยว</h5>
+                        <a href="thai11.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://img.kapook.com/image/Movie%205/Poster-ATM-theme-Sit-1-mb.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">ATM เออรัก..เออเร่อ</h5>
+                        <a href="thai12.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; นายกฤษฎา นาคะพงศ์ 670710310</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

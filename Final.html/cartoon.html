@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์แนะนำหนัง</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .icon-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .icon-button:hover {
+            color: #060606;
+        }
+        .search-box {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 10px;
+            padding: 5px 10px;
+            color: white;
+        }
+        .search-box::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .navbar {
+            background-color: #000000;
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+        body, html {
+            background-color: rgb(21, 22, 45);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b>MOVIE RECOMMENDATION</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="THAI.html"><b>THAI MOVIES</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cartoon.html"><b>CARTOON MOVIE</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SERIES.html"><b>SERIES</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>CONTRIBUTE</b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">นายกฤษฎา นาคะพงศ์</a></li>
+                            <li><a class="dropdown-item" href="#">นายกฤตดิศักดิ์ แก้วบุรงค์</a></li>
+                            <li><a class="dropdown-item" href="#">นายชาญชัญญ์ เอื้อประเสริฐ</a></li>
+                            <li><a class="dropdown-item" href="#">นายณัฐดนัย สันติชวลิตสกุล</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <form class="d-flex align-items-center" role="search">
+                    <input class="form-control me-2 search-box" type="search" placeholder="ค้นหา" aria-label="Search">
+                    <button class="btn btn-outline-light me-2" type="submit"><i class="fas fa-search"></i></button>
+                    <button class="icon-button" type="button"><i class="fas fa-user-plus" title="สมัครสมาชิก"></i></button>
+                    <button class="icon-button" type="button"><i class="fas fa-sign-in-alt" title="เข้าสู่ระบบ"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-4 text-center text-bg-light"><b>CARTOON MOVIE</b></h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTk3M2YwMGUtZDJiZS00MDNkLWIyZDEtY2VjMWYyZDFmZjMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="Love Scout">
+                    <div class="card-body">
+                        <h5 class="card-title">Wallace & Gromit: Vengeance Most Fowl</h5>
+                        <a href="ca1.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://c.min.ms/t/d/member/c/146/146367/pagegallery/1640143893/c0b1c893.jpeg" class="card-img-top" alt="Undercover High School">
+                    <div class="card-body">
+                        <h5 class="card-title">Howl's Moving Castle</h5>
+                        <a href="ca2.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://image.tmdb.org/t/p/original/bADc2ddWYs4hBcOdOgALraWRSj9.jpg" class="card-img-top" alt="Heavenly Ever After">
+                    <div class="card-body">
+                        <h5 class="card-title">Puss in Boots: The Last Wish</h5>
+                        <a href="ca3.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://lh3.googleusercontent.com/pffUsE6R98s9eqly7TRTxY0BXMXzTDi9Ou3C7oEzxV79GCKAoHRxsIpyvJ8k5t1YTDBm0oDLFBbKX5m3KtSS7PP1EkVKeX65=s0" class="card-img-top" alt="Crushology 101">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirited Away</h5>
+                        <a href="ca4.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://image.tmdb.org/t/p/original/A4mhO5Viv5XnGFbCPcd9OLw7wky.jpg" class="card-img-top" alt="Resident Playbook">
+                    <div class="card-body">
+                        <h5 class="card-title">Wish Dragon</h5>
+                        <a href="ca5.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://lh3.googleusercontent.com/9_Q9f8fzf5qLazr1d0L-9XgKbOGWa8d5q0THv4uDNI7XZQUzwaYNxxIEeLhgWAOl6w_I2RDa8jjJm3_po88DaOCVWwXZcbTTb48=s0" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">The Garfield Movie</h5>
+                        <a href="ca6.html" class="btn btn-dark">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://movie.thaiware.com/upload_misc/movie/2017_04/original/170402073015f95.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Smurfs: The Lost Village</h5>
+                        <a href="ca7.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://lh3.googleusercontent.com/k-2oVBq2xtLsvmuJoQTIO8_3etvKRDvYLX5JlDOn-FJItr4YOkF7qUqoVNr9hqQRl559IFRmDOz6kEuka4ip=s0" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">The Secret Life of Pets 2</h5>
+                        <a href="ca8.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjg1ZWYxNTMtMmUyNC00YjdiLTliNjktMTg4ZDc3NmY5YzU3XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">The Imaginary</h5>
+                        <a href="ca9.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://inwfile.com/s-fq/6u0swi.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultraman: Rising</h5>
+                        <a href="ca10.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://kurenai17.wordpress.com/wp-content/uploads/2013/09/cloudy_with_a_chance_of_meatballs_two_ver7_xxlg.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloudy With a Chance of Meatballs</h5>
+                        <a href="ca11.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://f.ptcdn.info/962/067/000/q51yhtzhslQoQ49KfDI-o.jpg" class="card-img-top" alt="The Haunted Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Klaus</h5>
+                        <a href="ca12.html" class="btn btn-danger">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; นายณัฐดนัย สันติชวลิตสกุล 670710318</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
